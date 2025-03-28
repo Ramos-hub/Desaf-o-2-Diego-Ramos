@@ -31,32 +31,115 @@ width: 150px;
 .card{
     margin: 20px; width: 300px; border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 5px 10px gray;
+    box-shadow: 0px 5px 10px darkgray;
     font-family: "Open Sans", sans-serif;
     padding: 30px;
-    background-color:gainsboro;
+    background-color:darkseagreen;
 }
 .card img{
     width: 100%;
     border-radius: 20px;
 }
 .card h1{
-    text-align: center; color:cadetblue;
+    text-align: center; 
+    color:black;
 }
 .footer{
     padding: 17px;
-    text-align: center;
+    text-align: center;;
 }
 .footer a{
     text-decoration: none;
+}
+.footer button{
+    border-radius: 20px;
+    padding: 8px;
+    border: 0px;
 }
 .tarjetas{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
+.producto{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;
+    overflow: hidden;
+    padding: 30px;
+}
+.producto img{
+    width: 350px;
+}
+.producto a{
+    text-decoration: none;
+    color: black;
+}
+.producto button{
+    padding-inline: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    background-color: darkseagreen;
+    border: 0px;
+}
+section h1{
+    text-align: center;
+    background-color: darkseagreen;
+    font-size: 30px;
+    padding: 20px;
+}
 footer{
     background-color: darkgray;
     padding: 20px;
     font-size: 18px;
+    text-align: center;
+}
+section p{
+    font-size: 20px;
+}
+.eslogan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+}
+.eslogan img{
+    width: 500px;
+}
+.catalogo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;
+    overflow: hidden;
+    padding: 10px;
+}
+.catalogo a{
+    text-decoration: none;
+    color: black;
+}
+.catalogo button{
+    padding-inline: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    background-color: darkseagreen;
+    border: 0px;
+}
+.catalogo img{
+width: 500px;
+padding: 40px;
+}
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+.history img{
+    height:  500px;
 }
